@@ -97,7 +97,10 @@ namespace MyWPFApp
 
             return result;
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         internal static string GetDotNetRuntimeInfo()
         {
             return typeof(object).Assembly.GetCustomAttribute<AssemblyInformationalVersionAttribute>().InformationalVersion;
