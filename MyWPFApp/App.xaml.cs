@@ -17,6 +17,7 @@ namespace MyWPFApp
     /// </summary>
     public partial class App : Application
     {
+        //start
         public App()
         {
             DiagnosticsClient.Initialize();
